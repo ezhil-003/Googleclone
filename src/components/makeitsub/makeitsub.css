@@ -90,3 +90,12 @@
     top: -480px;
     right:-430px;
 }
+
+@media screen  and (max-width:1150px){
+    .makeit-sub-left {
+        width: 50%;
+        margin: 2%;
+        padding: 2%;
+    }
+   
+}

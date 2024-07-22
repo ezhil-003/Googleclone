@@ -35,9 +35,9 @@
     justify-items: center;
     justify-content: center;
     margin-top: 20px;
+    position: sticky;
     float: initial;
 }
-
 .listwrapper{
     width: inherit;
     height: 100%;
