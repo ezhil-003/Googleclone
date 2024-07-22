@@ -81,4 +81,78 @@
 
 .random-div{
     height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.video-content{
+    width: 50%;
+    height: 600px;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 3%;
+}
+.text-content-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 600px;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+}
+.media-content{
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.media-content img, video{
+    border-radius: 20px;
+}
+.headline{
+    width: 500px;
+    height: 200px;
+    padding: 3%;
+}
+.headline h2{
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 2.25rem;
+    letter-spacing: -0.03125rem;
+    width: 500px;
+    margin:0 0 0 0;
+}
+
+.headline-content p{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.6px;
+    color: #5f6368;
+    width: 400px;
+    transition: ease-in-out 1s;
+}
+.makeit-button{
+    width: 100%;
+    height: 80px;
+    padding: 1%;
+    margin-top:50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.makeit-button a{
+    background-color: #e8f0fe;
+    color: #1967d2;
+    padding: 3% 6% 3% 6%;
+    border-radius: 50px;
+    font-size: 17px;
+}
+.makeit-button span{
+    width: 85%;
+    height:100%;
+    
+    align-content: center;
 }
